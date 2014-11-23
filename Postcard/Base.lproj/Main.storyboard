@@ -62,6 +62,16 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="shC-NG-OmF"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jtX-0h-KvS" userLabel="Label for name">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" red="0.060402064415333218" green="0.042981023260616771" blue="0.46019446331521741" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="137" width="131" height="26"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -71,6 +81,7 @@
                                 <exclude reference="v7N-gs-1ye"/>
                                 <exclude reference="oJS-Z1-TAv"/>
                                 <exclude reference="fOX-kT-BfA"/>
+                                <exclude reference="jtX-0h-KvS"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -80,6 +91,7 @@
                                 <include reference="v7N-gs-1ye"/>
                                 <include reference="oJS-Z1-TAv"/>
                                 <include reference="fOX-kT-BfA"/>
+                                <include reference="jtX-0h-KvS"/>
                             </mask>
                         </variation>
                     </view>
@@ -87,6 +99,7 @@
                         <outlet property="enterMessageTextField" destination="oJS-Z1-TAv" id="e7Y-3D-akT"/>
                         <outlet property="enterNameTextField" destination="v7N-gs-1ye" id="PBv-8q-hPt"/>
                         <outlet property="messageLabel" destination="jHa-jV-TK7" id="6sB-Yn-dhI"/>
+                        <outlet property="nameLabel" destination="jtX-0h-KvS" id="4ml-9g-pwN"/>
                         <outlet property="sendMailButton" destination="fOX-kT-BfA" id="KkQ-zV-dxW"/>
                     </connections>
                 </viewController>
